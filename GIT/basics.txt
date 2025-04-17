@@ -1,0 +1,106 @@
+### GIT:
+
+Git is a version control system. 
+Version control system is a tools that helps to track changes in code.
+
+properties:
+
+popular, free & open source, fast & scalable.
+
+why git has been used:
+1. track the history of code.
+2. collaborate with team in different projects.
+
+
+GITHUB****
+
+It is a website that allows developers to store and manage their code using git.
+https://github.com
+
+the projects on GitHub has been uploaded in the form of folders(called as repository)
+
+GitHub Account:
+
+Create a new repository: xyz
+
+go to GitHub profile and then go to repositories section and click on new and then we will type the repository name and will give some description about it and then click on Add a Readme file and then create repository.
+
+README md:
+
+A README.md file is a Markdown-formatted file that provides information about a project. It's a common way to document software projects. 
+
+make our first commit:
+
+in GitHub changes called it as commit.
+first we have to add any information in our code then we will have to commit.
+                add-commit
+
+In README there is an edit button from where we can make changes in our code or projects, then we will click on commit changes.
+
+
+Setting up GIT:
+
+Visual studio code
+Windows (Git Bash)
+
+
+Why should we use git Bash?
+
+Git Bash is a command-line interface that is used to communicate with Git, the version control system. Clone the repositories, commit changes, push and pull changes, and more are all possible using Git Bash. Git Bash can automate manual tasks with the scripts written by you.
+
+For confirming vs code and git bash has either been installed or not we have to open our terminal then we have to type:   git --version
+
+
+Configuring GIT:
+
+git config --global user.name "My Name"
+example: git config --global user.name "himanshu-prakash"
+
+git config --global user.email "himanshuprakash47720@gmail.com"
+
+git config --list: we use this command for checking what we have done using git config
+
+after giving this command i.e., git config --list: 
+user name=himanshu-prakash
+user email=himanshuprakash47720@gmail.com
+
+
+Open Vs code and open a new folder , first check in the terminal section for git version using command: git --version
+
+
+Clone & Status:
+
+Clone: Cloning a repository on our local machine; clone means making duplicate.
+git clone <-some link->
+
+Status: displays the state of the code
+git status
+
+two types of machine: 
+local machine (laptop/pc)
+global machine (GitHub)
+
+clone has been used for copying repositories of GitHub to our pc or system.
+
+for cloning we have to visit our project on GitHub and then click on code and then click on https and then copy the link.
+
+https is the easiest way to clone a repository into a local machine.
+
+now we will come back to vs code and open the folder of that project and then come to terminal in vs code and we will write the command: git clone link(that we have copied in github)
+
+so we will get the folder that we have created in github inside the project folder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
